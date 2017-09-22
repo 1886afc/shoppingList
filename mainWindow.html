@@ -3,9 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <title>Shopping list</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 </head>
 <body>
-<h1>Shopping List</h1>
+    <nav>
+        <div class="nav-wrapper">
+            <a class="brand-logo center"> Shopping List</a>
+        </div>
+    </nav>
+    <ul ></ul>
 
+    <script>
+        const electron = require('electron');
+        const {ipcRenderer} = electron;
+        const ul = document.querySelector('ul');
+
+        // captures to do list item entered in addWindow and displays it in mainWindow.html
+        ipcRenderer.on('item:add', function (e, item) {
+            ul.classname = 'collection';
+            const li = document.createElement('li');
+            li.className = 'collection-item';
+            const itemText = document.createTextNode(item);
+            li.appendChild(itemText);
+            ul.appendChild(li);
+        });
+
+        //clear items
+        ipcRenderer.on('item:clear', function () {
+           ul.innerHTML = "";
+        });
+
+        //remove item by doubleclick
+        ul.addEventListener('dblclick', removeItem);
+        
+        function removeItem(e) {
+            e.target.remove();
+            if(ul.children.length == 0){}
+        }
+    </script>
 </body>
 </html>

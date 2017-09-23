@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bde8f976-0b8f-4906-b05b-1dd739776dc4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/icons/mac/icon.icns" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/icons/win/icon.ico" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainWindow.html" afterPath="$PROJECT_DIR$/mainWindow.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addWindow.html" afterPath="$PROJECT_DIR$/addWindow.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.js" afterPath="$PROJECT_DIR$/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/mainWindow.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1000">
-              <caret line="40" column="30" lean-forward="true" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+              <caret line="40" column="30" lean-forward="false" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -27,18 +31,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="74" column="62" lean-forward="false" selection-start-line="74" selection-start-column="62" selection-end-line="74" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addWindow.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addWindow.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+            <state relative-caret-position="675">
+              <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -47,8 +41,18 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="875">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addWindow.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addWindow.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="800">
+              <caret line="32" column="7" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -72,10 +76,10 @@
       <list>
         <option value="$PROJECT_DIR$/node_modules/main.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/main.js" />
-        <option value="$PROJECT_DIR$/addWindow.html" />
         <option value="$PROJECT_DIR$/mainWindow.html" />
+        <option value="$PROJECT_DIR$/addWindow.html" />
+        <option value="$PROJECT_DIR$/main.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -125,6 +129,38 @@
               <item name="shoppingList" type="b2602c69:ProjectViewProjectNode" />
               <item name="shoppingList" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="shoppingList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shoppingList" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shoppingList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shoppingList" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="icons" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shoppingList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shoppingList" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="icons" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="mac" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shoppingList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shoppingList" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="icons" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="png" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shoppingList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shoppingList" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="icons" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="win" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -139,6 +175,10 @@
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\1886afc\Desktop\shoppingList\assets\icons\mac" />
+      <recent name="C:\Users\1886afc\Desktop\shoppingList\assets\icons\win" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\1886afc\Desktop\shoppingList" />
     </key>
@@ -169,12 +209,12 @@
       <option name="presentableId" value="Default" />
       <updated>1505944666494</updated>
       <workItem from="1505944669866" duration="5594000" />
-      <workItem from="1506021883478" duration="11173000" />
+      <workItem from="1506021883478" duration="13063000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16767000" />
+    <option name="totallyTimeSpent" value="18657000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1866" y="8" width="1984" height="2071" extended-state="0" />
@@ -254,31 +294,31 @@
     <entry file="file://$PROJECT_DIR$/mainWindow.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1000">
-          <caret line="40" column="30" lean-forward="true" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="74" column="62" lean-forward="false" selection-start-line="74" selection-start-column="62" selection-end-line="74" selection-end-column="62" />
+          <caret line="40" column="30" lean-forward="false" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/addWindow.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+        <state relative-caret-position="800">
+          <caret line="32" column="7" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="875">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>

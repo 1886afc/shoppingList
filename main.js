@@ -6,6 +6,9 @@ const path = require('path');
 //
 const {app, BrowserWindow, Menu, ipcMain} = electron;
 
+// Set ENV
+process.env.NODE_ENV = 'production';
+
 //variable to represent the main window
 let mainWindow;
 let addWindow;

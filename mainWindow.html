@@ -20,7 +20,7 @@
 
         // captures to do list item entered in addWindow and displays it in mainWindow.html
         ipcRenderer.on('item:add', function (e, item) {
-            ul.classname = 'collection';
+            ul.className = 'collection';
             const li = document.createElement('li');
             li.className = 'collection-item';
             const itemText = document.createTextNode(item);
@@ -31,6 +31,7 @@
         //clear items
         ipcRenderer.on('item:clear', function () {
            ul.innerHTML = "";
+           ul.className = '';
         });
 
         //remove item by doubleclick
@@ -38,7 +39,9 @@
         
         function removeItem(e) {
             e.target.remove();
-            if(ul.children.length == 0){}
+            if(ul.children.length === 0){
+                ul.className = '';
+            }
         }
     </script>
 </body>
